@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./index.js" defer></script>
+  <title>Happy Anniversary Love!</title>
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+  <header>
+    <h1>8 Fantastic Years</h1>
+  </header>
+
+  <!-- ❤️ Heart div acting as button -->
+  <div id="heartDiv" role="button" tabindex="0" aria-label="Click for a surprise"></div>
+
+  <!-- 💬 Glowing message -->
+  <div id="loveMessage" class="hidden">
+    <span class="close">&times;</span>
+    <h1>I will always love you,</h1>
+    <h2>till the day my soul disappears.</h2>
+    <p>Happy 8 years 💖</p>
+  </div>
+  <br>
+  <br>
+  <h2 class="memory-title">Our Beautiful Memories</h2>
+  <!-- 📸 Memory Section -->
+  <section id="memories">
+    <img src="image1.JPG" alt="Memory 1" class="memory" />
+    <video src="image3.mp4" class="memory" autoplay muted loop playsinline></video>
+    <img src="image2.JPG" alt="Memory 2" class="memory" />
+  </section>
+  <div id="yt-player-container">
+    <iframe
+      id="yt-player"
+      width="0"
+      height="0"
+      src="https://www.youtube.com/embed/hC8CH0Z3L54?autoplay=1&loop=1&playlist=hC8CH0Z3L54&mute=1"
+      frameborder="0"
+      allow="autoplay"
+      allowfullscreen
+    ></iframe>
+  </div>
+</body>
+</html>
