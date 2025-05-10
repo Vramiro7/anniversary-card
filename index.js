@@ -29,8 +29,8 @@ closeBtn.addEventListener('click', () => {
 });
 
 document.body.addEventListener('click', (e) => {
-  console.log("Splendid is my true love HAHAHHAHAHAHAHAHAHHAH")
   const heart = document.createElement('img');
+  console.log("Splendid is my true love HAHAHHAHAHAHAHAHAHHAH")
   heart.src = 'heart.png'; // Make sure this matches your file name and location
   heart.style.position = 'absolute';
   heart.style.left = `${e.clientX}px`;
