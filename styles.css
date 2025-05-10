@@ -112,7 +112,7 @@ header h1 {
     opacity: 0;
   }
   100% {
-    transform: scale(1);
+    transform: scale(2);
     opacity: 2;
   }
 }
@@ -223,7 +223,7 @@ span.heart {
 }
 
 .memory-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #ffc0cb;
   text-shadow: 0 0 10px #ff69b4;
   margin-bottom: 1rem;
